@@ -10,7 +10,7 @@ class MissingNumbers:
 
     def missingnumber(self, nums: list[int]) -> int:
         """Returns missing value of array [0,n].
-        Formula for sum of arithmetic progression Sn=(a1 + an)/2 * n
+        Formula for sum of arithmetic progression Sn  =(a1 + an)/2 * n
         """
         sum_progression = int((len(nums) * (len(nums) + 1)) / 2)
         return sum_progression - sum(nums)
